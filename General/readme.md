@@ -24,3 +24,25 @@ Questions to ask:
 - Implement features one by one
 - Services should be general because they will be used by many controllers
 - controllers should be focused on 
+- We do not usually have constructor with parameters for Entity classes
+
+
+## General flow
+
+- It is a good idea to draw and visualize before drawing the class requirement
+- We can also identify the nouns from the requirements to identify the entities
+- Service class should never depend on DTO, it should always depend upon the entities
+
+
+
+## TODO
+
+- Read how java reflection works and how it is used to implement annotations
+- Read java persistence tutorial
+- Make a list of common Java annotations
+- udemy java springboot
+- General notes on LLD like how to create a command line app etc.
+- Creating custom exceptions
+- A good design is where controllers are dumb, there job is marshalling and unmarshalling
+- Create a general template for LLD like command line app, API app, general class
+- what are spring beans
