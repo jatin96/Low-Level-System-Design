@@ -34,6 +34,12 @@ Questions to ask:
 - Service class should never depend on DTO, it should always depend upon the entities
 
 
+## LLD requirment gathering
+
+- Draw a high level diagram and ask one by one details for each layer
+- For example, for email campaign management - ask about company, campaign, email etc
+
+
 
 ## TODO
 
@@ -46,3 +52,5 @@ Questions to ask:
 - A good design is where controllers are dumb, there job is marshalling and unmarshalling
 - Create a general template for LLD like command line app, API app, general class
 - what are spring beans
+- Practice drawing diagrams etc : draw entites, find composition or aggregation, find caridnality
+
